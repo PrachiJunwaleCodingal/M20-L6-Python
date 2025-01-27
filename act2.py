@@ -3,7 +3,6 @@ import random
 import time
 
 number=random.randint(1, 100) 
-guess=int(input("Enter your Guess: ") )
 	
 
 
@@ -39,8 +38,8 @@ def pick():
         
 
 
-
 intro()
+guess=int(input("Enter your Guess: ") )
 pick()
 if guess == number:
 	print('Good job! You guessed my number')
